@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.fz-1_5{
+    font-size: 1.5rem;
+  }
+  .fz-2{
+    font-size: 2rem;
+  }
+  .fz-5{
+    font-size: 5rem;
+  }
+  .fw-b{
+    font-weight: bold;
+  }
+  .color-r{
+    color:#A00404;
+  }
+  .color-w{
+    color:#FFFFFF;
+  }
+  .container{
+    max-width: 1200px;
+    margin:0 auto; 
+  }
+  .header{
+      padding-top:2.5rem;
+      padding-bottom:1.5rem;
+      border-bottom:2px solid #000000;
+      margin-bottom: 3rem;
+    }
+  .img{
+      width: 324px;
+      margin-bottom: 3rem;
+    }
+  .title{
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #000000;
+  }
+  .span{
+      padding-left: 1rem;
+      vertical-align: text-top;
+    }
+  .profile ul{
+    margin-bottom: 4.5rem;
+  }
+  .profile li{
+    line-height: 1.8;;
+  }
+  .pb-1_5{
+    padding-bottom: 1.5rem;
+  }
+  .skills{
+    background: #415165;
+    padding-bottom: 3.25rem;
+    margin-bottom: 4.5rem;
+  }
+  .skills h2{
+    width: 996px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #FFFFFF;
+    
+    
+  }
+  .skills ul{
+    margin:0 auto;
+  /*   text-align: center; */
+    margin-top:2.5rem;
+    width: 206px;
+    padding-left: 1.5rem;
+    border-left: 1px solid #96A9C4;
+  }
+  .skills li{
+    margin-bottom: 1.25rem;
+  }
+  .work img{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .work ul{
+    padding-left: 1.5rem;
+    border-left: 1px solid #96A9C4;
+    margin-bottom: 4.5rem;
+  }
+  .work p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  .work-li{
+    font-size: 1.25rem;
+    font-weight: bold; 
+    padding-bottom: 2rem;
+  }
+  .pb-0{
+    padding-bottom: 0;
+  }
+  .container-f{
+    max-width:1920px;
+    background: #415165;
+  }
+  .container-f h2{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  .container-f li{
+    color:white;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+  }
+  .container-f li img{
+    padding-right: 1.5rem;
+    padding-bottom: 3rem;
+  }
